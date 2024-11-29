@@ -1,0 +1,32 @@
+program
+var
+{Declarating variables}
+    a, b, c : int;
+    x, y : float;
+    flag : bool;
+    i : int;
+begin
+    a as 10d;
+    b as 1010b;
+    c as a plus b mult 2d;
+    x as 3.14;
+    y as x mult 2.0;
+    flag as true;
+
+    if c GT 20d then
+        write(c)
+    else
+        write(20d);
+
+    for i as 1d to 10d do
+        write(i);
+
+    while flag do
+    [
+        read(a);
+        if a EQ 0d then
+            flag as ~flag
+    ];
+
+    write(0d);
+end.
